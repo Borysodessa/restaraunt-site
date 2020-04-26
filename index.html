@@ -5,48 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two&display=swap" rel="stylesheet">
     <title>Restaurant BD</title>
 </head>
 <body>
 
-    <header>
-        <div class="container">
-            <img src="image/logo.png" alt="logo">
-           <p class="welcome">
-                Wellcome To restaurantBD.com
-            </p>
-            <input type="search" placeholder="Quick Search">
-            <ul class="login">
-                <li>
-                    Login
-                </li>
-            </ul>
-            <a class="delivary" href="#">
-                For Delivary : 687 457 6587-90
-            </a>
+    <header class="header">
+        <div class="top-header_container">
+            <div class="top-header-flex_container">
+                <img class="logo" src="image/logo.png" alt="logo">
+                <p class="welcome">
+                    Wellcome To
+                    <span class="welcome-red-color">
+                        restaurantBD.com
+                    </span>
+                </p>
+                <form class="quick-search_form">
+                    <input class="quick-search_text-form" type="text" placeholder="Quick Search">
+                    <button class="quick-search_button" type="submit" ></button>
+                </form>
+                <button class="btn login" type="submit" >Login</button>
+                <a class="delivary" href="#">
+                    For Delivary : 687 457 6587-90
+                </a>
+            </div>
+        </div>
+        <div class="bottom-header-container">
             <nav class="navigation">
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Page</a>
-                <a href="">Menu</a>
-                <a href="">Gallery</a>
-                <a href="">Blog</a>
-                <a href="">Shops</a>
-                <a href="">Contact</a>
+                <ul class="navigation-list-flex_container">
+                     <li class="navigation_item"><a class="navigation_link" href="">Home</a></li>
+                     <li class="navigation_item"><a class="navigation_link" href="">About</a></li>
+                     <li class="navigation_item"><a class="navigation_link" href="">Page</a></li>
+                     <li class="navigation_item"><a class="navigation_link" href="">Menu</a></li>
+                     <li class="navigation_item"><a class="navigation_link" href="">Gallery</a></li>
+                     <li class="navigation_item"><a class="navigation_link" href="">Blog</a></li>
+                     <li class="navigation_item"><a class="navigation_link" href="">Shops</a></li>
+                     <li class="navigation_item"><a class="navigation_link" href="">Contact</a></li>
+                     <li class="navigation_item"><a class="basket" href="#"></a></li>
+                     <li class="navigation_item"><a class="btn btn-reservation_header" href="#">Reservation</a></li>
+                </ul>
             </nav>
         </div>
     </header>
+
     <main>
 
         <section class="main-features_section">
             <div class="container">
                 <div class="main-features_container">
-                    <p class="main-feartures-top_text">
+                    <p class="main-features_text">
                         RestaurantBD is the name of pure food
                     </p>
-                    <p class="slogan">
+                    <h1 >
                         We Provide 100% Pure & Healthy Food
-                    </p>
+                    </h1>
                     <p class="history-text">
                         when an unknown printer took a galley of type and
                         scrambled it to make a type specimen book. It has
@@ -54,12 +69,14 @@
                         electronic typesetting, remaining essentially unchanged.
                         It was popularised in the 1960s.
                     </p>
-                    <a class="btn about-us" href="#">
-                        about us
-                    </a>
-                    <a class="btn menu" href="#">
-                        see menu
-                    </a>
+                    <div class="main-features-link_container">
+                        <a class="btn about-us-link" href="#">
+                            about us
+                        </a>
+                        <a class="btn menu-link" href="#">
+                            see menu
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
