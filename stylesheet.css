@@ -4,6 +4,8 @@ body{
     box-sizing: border-box;
     outline: blue 2px solid;
 }
+
+/*header*/
 .header{
     outline: #00c5d2 3px solid;
     margin-bottom: 0;
@@ -44,7 +46,7 @@ body{
     margin-left: 8%;
 }
 
-.welcome-red-color{
+.welcome-red-color_span{
     font-family: Poppins,sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -154,7 +156,7 @@ body{
     position: absolute;
     width: 30px;
     height: 26px;
-    margin-top: 0px;
+    margin-top: 0;
     background-image: url("image/basket.png");
     background-repeat: no-repeat;
 }
@@ -173,7 +175,7 @@ body{
     margin-left: 30px;
     margin-bottom: 0;
 }
-
+                       <!--
 .main-features_section{
     background-image: url("image/background_section1.png");
     background-size: cover ;
@@ -255,9 +257,168 @@ h1{
     background-color: #ff3a2d;
     margin-left: 45px;
     text-wrap: none;
-
 }
 
+.wellcome-booking_text{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    line-height: 38px;
+    color: #ff3a2d;
+    font-size: 48px;
+    position: relative;
+}
+
+.wellcome-booking_text::after{
+    content: "";
+    position: absolute;
+    background-image: url("image/venzel.png");
+    width: 200px;
+    height: 20px;
+    top: 85px;
+    margin-left: -180px;
+}
+
+.wellcome-booking_span {
+    color: #222222;
+    font-family: "Lobster Two",cursive;
+    font-size: 28px;
+    font-weight: 700;
+    text-wrap: none;
+}
+
+.wellcome-booking_container{
+    width: 192px;
+}
+
+.wellcome-booking-propose_text{
+    color: #808080;
+    font-family: Poppins,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.wellcome-booking-text_cite{
+    color: #1c1c1c;
+    font-family: 'Sacramento', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.wellcome-booking-text-cite_span{
+    font-size: 16px;
+}
+
+.wellcome-booking-text-cite_container{
+    width: 198px;
+}
+
+.booking_section_flex-container{
+    display: flex;
+    justify-content: space-around;
+    outline: #ff3a2d 1px solid;
+}
+
+.wellcome-booking_flex-container{
+    width: 60%;
+}
+
+.book-table_form{
+    width: 50%;
+    background: #ff3a2d;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+    text-align: center;
+    margin-top: 55px;
+    margin-left: auto;
+    position: relative;
+}
+
+.book-table_form::after{
+    content: "";
+    position: absolute;
+    background-image: url("image/fon-leaves.png");
+    width: 400px;
+    height: 400px;
+    top: 390px;
+    left: 150px;
+    background-repeat: no-repeat;
+    z-index:-1;
+}
+
+
+.book-table_form_heading{
+    color: #ffffff;
+    font-family: 'Lobster Two', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 15px;
+    position: relative;
+}
+
+.book-table_form_heading::before{
+    content: "";
+    position: absolute;
+    background-image: url("image/venzel2.png");
+    width: 140px;
+    height: 40px;
+    top: -5px;
+    left: 75px;
+    background-repeat: no-repeat;
+}
+.book-table_form_heading::after{
+    content: "";
+    position: absolute;
+    background-image: url("image/venzel2.png");
+    width: 140px;
+    height: 40px;
+    top: -5px;
+    right: -40px;
+    background-repeat: no-repeat;
+}
+
+.you-name-text-input{
+    width: 100%;
+    margin-top: 28px;
+    height: 38px;
+}
+.count-people_select{
+    width: 100%;
+    height: 38px;
+    margin-top: 20px;
+}
+
+.date_input{
+    width: 100%;
+    height: 38px;
+    margin-top: 20px;
+}
+
+.time_input{
+    width: 100%;
+    height: 38px;
+    margin-top: 20px;
+}
+
+.Table-No_select{
+    width: 100%;
+    height: 38px;
+    margin-top: 20px;
+}
+
+.book-now_input{
+    width: 100%;
+    height: 38px;
+    margin-top: 20px;
+    margin-bottom: 79px;
+    background-color: #0af3ef;
+    color: #ffffff;
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
 
 
 

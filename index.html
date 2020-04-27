@@ -19,7 +19,7 @@
                 <img class="logo" src="image/logo.png" alt="logo">
                 <p class="welcome">
                     Wellcome To
-                    <span class="welcome-red-color">
+                    <span class="welcome-red-color_span">
                         restaurantBD.com
                     </span>
                 </p>
@@ -34,20 +34,20 @@
             </div>
         </div>
         <div class="bottom-header-container">
-            <nav class="navigation">
-                <ul class="navigation-list-flex_container">
-                     <li class="navigation_item"><a class="navigation_link" href="">Home</a></li>
-                     <li class="navigation_item"><a class="navigation_link" href="">About</a></li>
-                     <li class="navigation_item"><a class="navigation_link" href="">Page</a></li>
-                     <li class="navigation_item"><a class="navigation_link" href="">Menu</a></li>
-                     <li class="navigation_item"><a class="navigation_link" href="">Gallery</a></li>
-                     <li class="navigation_item"><a class="navigation_link" href="">Blog</a></li>
-                     <li class="navigation_item"><a class="navigation_link" href="">Shops</a></li>
-                     <li class="navigation_item"><a class="navigation_link" href="">Contact</a></li>
-                     <li class="navigation_item"><a class="basket" href="#"></a></li>
-                     <li class="navigation_item"><a class="btn btn-reservation_header" href="#">Reservation</a></li>
-                </ul>
-            </nav>
+
+                <nav class="navigation-list-flex_container">
+                     <a class="navigation_link" href="">Home</a>
+                     <a class="navigation_link" href="">About</a>
+                     <a class="navigation_link" href="">Page</a>
+                     <a class="navigation_link" href="">Menu</a>
+                     <a class="navigation_link" href="">Gallery</a>
+                     <a class="navigation_link" href="">Blog</a>
+                     <a class="navigation_link" href="">Shops</a>
+                     <a class="navigation_link" href="">Contact</a>
+                     <a class="basket" href="#"></a>
+                     <a class="btn btn-reservation_header" href="#">Reservation</a>
+                </nav>
+
         </div>
     </header>
 
@@ -82,35 +82,49 @@
         </section>
 
         <section class="booking_section">
-            <div class="container">
-                <P class="wellcome-booking_text">
-                    Wellcome
-                    To Our Resturant
-                </P>
-                <p class="wellcome-booking-propose_text">
-                    There are many variations of passages of Loretend to repeat
-                    predefined chunks as youm IInjected humour, or randomised
-                    words which don't look even slightly believable. If psum
-                    available, but the majority have suffered alteration in some
-                    form.
-                </p>
-                <p>
-                    Injected humour, or randomised words which don't look evethe
-                    Internet tend to repeat predefined chunks as necessary, making
-                    this the first n slightly believable. If you are going to use
-                    a passage of Lorem Ipsum, you need to be sure there isn't tend
-                    to repeat predefined chunks as youon the Internet tend to repeat
-                    predefined chunks as necessary, making this the first true
-                    generator on the Internet.
-                </p>
-                <cite class="wellcome-booking-text_cite">
-                    Matthew T. Sloan
-                    Founder & Owner
-                </cite>
+            <div class="container booking_section_flex-container">
+                <div class="wellcome-booking_flex-container">
+                    <div class="wellcome-booking_container">
+                        <h2 class="wellcome-booking_text">
+                            Wellcome
+                            <span class="wellcome-booking_span">
+                                To Our Resturant
+                            </span>
+                        </h2>
+                    </div>
+                    <p class="wellcome-booking-propose_text">
+                        There are many variations of passages of Loretend to repeat
+                        predefined chunks as youm IInjected humour, or randomised
+                        words which don't look even slightly believable. If psum
+                        available, but the majority have suffered alteration in some
+                        form.
+                    </p>
+                    <p class="wellcome-booking-propose_text">
+                        Injected humour, or randomised words which don't look evethe
+                        Internet tend to repeat predefined chunks as necessary, making
+                        this the first n slightly believable. If you are going to use
+                        a passage of Lorem Ipsum, you need to be sure there isn't tend
+                        to repeat predefined chunks as youon the Internet tend to repeat
+                        predefined chunks as necessary, making this the first true
+                        generator on the Internet.
+                    </p>
+                    <div class="wellcome-booking-text-cite_container">
+                        <cite class="wellcome-booking-text_cite">
+                            Matthew T. Sloan
+                            <span class="wellcome-booking-text-cite_span">
+                                Founder & Owner
+                            </span>
+                        </cite>
+                    </div>
+                </div>
+
                 <div class="book-table_container">
                     <form class="book-table_form" action="#">
-                        <input type="text" placeholder="you name*">
-                        <select class="count-people" name="count-people">
+                        <h3 class="book-table_form_heading">
+                            Book Table
+                        </h3>
+                        <input class="you-name-text-input" type="text" placeholder="you name*">
+                        <select class="count-people_select" name="count-people">
                             <option value="one person">One person</option>
                             <option value="Two person">Two person</option>
                             <option value="Three person">Three  person</option>
@@ -120,9 +134,9 @@
                             <option value="Seven person">Seven person</option>
                             <option value="Your quantity">Your quantity</option>
                         </select>
-                        <input type="date" >
-                        <input type="time">
-                        <select class="Table No " name="Table No " >
+                        <input class="date_input" type="date" >
+                        <input class="time_input" type="time">
+                        <select class="Table-No_select" name="Table No " >
                             <option value="First table">First table</option>
                             <option value="Second table">Second table</option>
                             <option value="Third table">Third table</option>
@@ -132,7 +146,7 @@
                             <option value="Seventh table">Seventh table</option>
                             <option value="Eighth table">Eighth table</option>
                         </select>
-                        <input type="button" value="Book Now.">
+                        <input class="book-now_input" type="button" value="Book Now."><!--вопрос инпут или баттон-->
                     </form>
                 </div>
             </div>
