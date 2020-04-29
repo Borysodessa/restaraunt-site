@@ -1,0 +1,98 @@
+
+.header__flex-container_top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo-container__header{
+    position: absolute;
+  }
+}
+
+.header__slogan-text{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  color: $wt;
+  margin-left: 125px;
+  .slogan-text__link{
+    color: $ct;
+    text-decoration: none;
+    &:hover{
+      color: #c63c33;
+    }
+    &:active{
+      color: #793935;
+    }
+  }
+}
+//search-form & button
+.header__search__input{
+  width: 200px;
+  height: 28px;
+  background-color: #bfbdbb;
+  color: #848383;
+  border-radius: 6px 0 0 6px;
+  border: none;}
+
+.header__search__button{
+  width: 30px;
+  height:28px;
+  background-image: url("image/button.png");
+  margin-left:-5px;
+  border-radius: 0 6px 6px 0;
+  border: none;
+  color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  &:hover{
+    border: $wt 1px solid;
+  }
+  &:active{
+    border: #bfbdbb 1px solid;
+  }
+}
+.header__login-input{
+  background: $bk;
+  color: $wt;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  cursor: pointer;
+  position: relative;
+  margin: 20px 0 20px 0; //??????????????????????????????????
+  &:hover{
+    color: #e6e2e1;
+  }
+  &:active{
+    color: #848383;
+  }
+  //так и не летит
+  &::before{
+    content:url("image/login.png");
+    width: 20px;
+    height: 20px;
+    top: -20px;
+    background-image: url("image/login.png");
+    display: block;
+    background-color: white;
+    position: absolute;
+    z-index: 5;
+  }
+}
+
+.header__contact-dilivary_link{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  color:$wt;
+  text-decoration: none;
+  &:hover{
+    color: #e6e2e1;
+  }
+  &:active {
+    color: #848383;
+  }
+}
