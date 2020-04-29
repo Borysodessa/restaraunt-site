@@ -25,7 +25,7 @@ $ct:#ff3a2d;
 
 .top-header_flex-container{
   display: flex;
-  border: $ct 1px solid;
+
   justify-content: space-between;
   align-items: center;
   position: relative;
@@ -72,6 +72,13 @@ $ct:#ff3a2d;
       background-image: url("image/button.png");
       color: rgba(255, 255, 255, 0.1);
       margin-left: -5px;
+      cursor: pointer;
+      &:hover{
+        border: #bdbbb9 1px solid;
+      }
+      &:active{
+        border: #bdbbb9 2px solid;
+      }
     }
   }
 
@@ -82,11 +89,14 @@ $ct:#ff3a2d;
     font-weight: 400;
     font-size: 14px;
     border: none;
-
     position: relative;
 
+    &:hover{
+      color: #bdbbb9;
+    }
+
     .header-login_input::before{
-      content:"";
+      content:url("image/login.png");
       background-image: url("image/login.png");
       width: 15px;
       height: 15px;
@@ -94,6 +104,7 @@ $ct:#ff3a2d;
       position: absolute;
        background-color: red;
       color:red;
+      z-index: 5;
     }
 
   }
@@ -105,16 +116,20 @@ $ct:#ff3a2d;
     font-weight: 400;
     line-height: 15px;
     text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+      color: #bdbbb9;
+    }
   }
 }
 
 .page-bottom-header_section{
   background-color: $wt;
-  border: aqua 1px solid;
+
   .header-bottom-menu_flex-nav{
     display: flex;
     justify-content: flex-end;
-    border: #bdbbb9 1px solid;
+
 
     .header-bottom-menu_item{
       margin-left: 33px;
@@ -135,10 +150,13 @@ $ct:#ff3a2d;
         margin-top: 10px;
       }
       &:nth-child(9)::before{
-        content:url("image/basket.png"); // неполучилось  баграундом
-
+        content:url("image/basket.png");                 // неполучилось  баграундом
+        ackground-image: url("image/basket.png");
         background-repeat: no-repeat;
          margin-top: 5px;
+        width: 30px;
+        height: 30px;
+        background-color: red ;
       }
     }
   }
