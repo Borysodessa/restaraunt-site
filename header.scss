@@ -1,12 +1,13 @@
 $bk:#1f1a18;
 $wt:#ffffff;
-
 .header{
   background-color:$bk ;
   .header__section_top{
     width: 100%;
+
   }
   .header__section_bottom{
     background-color: $wt;
+    border: #959494 1px solid;
   }
 }

@@ -1,4 +1,3 @@
-@import "header.css";
 .main {
   position: absolute;
 }
@@ -15,6 +14,17 @@
 .container {
   max-width: 1180px;
   margin: 0 auto;
+}
+
+.header {
+  background-color: #1f1a18;
+}
+.header .header__section_top {
+  width: 100%;
+}
+.header .header__section_bottom {
+  background-color: #ffffff;
+  border: #959494 1px solid;
 }
 
 .header__flex-container_top {
@@ -89,16 +99,15 @@
 .header__login-input:active {
   color: #848383;
 }
+
 .header__login-input::before {
   content: url("image/login.png");
   width: 20px;
   height: 20px;
-  top: -20px;
   background-image: url("image/login.png");
   display: block;
   background-color: white;
   position: absolute;
-  z-index: 5;
 }
 
 .header__contact-dilivary_link {
@@ -114,6 +123,65 @@
 }
 .header__contact-dilivary_link:active {
   color: #848383;
+}
+
+.header__section_bottom {
+  background-color: #ffffff;
+}
+.header__section_bottom .header__container_bottom {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header__nav .nav_item {
+  text-decoration: none;
+  color: #222222;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15px;
+  text-transform: uppercase;
+  margin-right: 33px;
+}
+.header__nav .nav_item-basket {
+  margin: 16px 33px 16px 0;
+  text-decoration: none;
+  color: #222222;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15px;
+  text-transform: uppercase;
+  position: relative;
+}
+.header__nav .nav_item-basket::after {
+  content: url("image/basket.png");
+  background-image: url("image/basket.png");
+  width: 28px;
+  height: 28px;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-left: 33px;
+  top: -15px;
+  display: block;
+}
+.header__nav .nav_item-reservation {
+  color: #ffffff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15px;
+  text-transform: uppercase;
+  background-color: #ff3a2d;
+  text-decoration: none;
+  padding: 9px 18px 9px 18px;
+  border-radius: 0 6px 0 6px;
+  margin: 0 0 0 78px;
 }
 
 /*# sourceMappingURL=styles.css.map */

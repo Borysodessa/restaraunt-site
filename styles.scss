@@ -9,16 +9,30 @@
   margin: 0;
   box-sizing: border-box;
 }
-$bk:#1f1a18;
-$wt:#ffffff;
+
 
 .container{
  max-width: 1180px;
   margin: 0 auto;
 }
 $ct: #ff3a2d;
-@import "header.css";
-@import "header__section_top";
+@import "Header.scss";
+@import "header__cection_top.scss";
+@import "header__section_bottom";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

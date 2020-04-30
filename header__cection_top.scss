@@ -68,19 +68,21 @@
   &:active{
     color: #848383;
   }
+
+}
   //так и не летит
-  &::before{
+  .header__login-input::before{
     content:url("image/login.png");
     width: 20px;
     height: 20px;
-    top: -20px;
+
     background-image: url("image/login.png");
     display: block;
     background-color: white;
     position: absolute;
-    z-index: 5;
+
   }
-}
+
 
 .header__contact-dilivary_link{
   font-family: 'Poppins', sans-serif;
@@ -96,3 +98,4 @@
     color: #848383;
   }
 }
+
