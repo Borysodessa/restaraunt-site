@@ -1,0 +1,183 @@
+$ct: #ff3a2d;
+$bk:#1f1a18;
+$wt:#ffffff;
+
+.header{
+  background-color:$bk ;
+  .header__container_top{
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .header__container_bottom{
+    background-color: $wt;
+    border: #959494 1px solid;
+  }
+}
+
+.header__flex-container_top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo-container__header{
+   margin-bottom: -65px;
+  }
+}
+
+.header__slogan-text{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  color: $wt;
+
+  .slogan-text__link{
+    color: $ct;
+    text-decoration: none;
+    &:hover{
+      color: #c63c33;
+    }
+    &:active{
+      color: #793935;
+    }
+  }
+}
+
+.header__form{
+  height: 28px;
+  box-sizing: border-box;
+  vertical-align: center;
+
+}
+//search-form & button
+.header__form__input{
+  width: 200px;
+  height: 28px;
+  background-color: #bfbdbb;
+  color: #848383;
+  border-radius: 6px 0 0 6px;
+  margin-top: 0;
+  padding: 0;
+  border: none;
+}
+.header__form__button{
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.search-form__img{
+  width: 30px;
+  height:28px;
+  border-radius: 0 6px 6px 0;
+  border: none;
+  cursor: pointer;
+  position: absolute; //?????? выскакивает из строки если нет позитион абсолуте
+  top: -3px;
+  left: -6px;
+
+  &:hover{
+    border: $wt 1px solid;
+  }
+  &:active{
+    border: #bfbdbb 1px solid;
+  }
+}
+
+
+
+.link__header{
+  background: $bk;
+  color: $wt;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  text-decoration: none ;
+  position: relative;
+  &:hover{
+    color: #e6e2e1;
+    text-decoration: underline;
+  }
+  &:active{
+    color: #848383;
+  }
+  .link-login_span{
+    margin-right: 13px;
+  }
+
+
+
+}
+
+.header__contact-delivary_link{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  color:$wt;
+  text-decoration: none;
+  &:hover{
+    color: #e6e2e1;
+  }
+  &:active {
+    color: #848383;
+  }
+}
+
+.header__section_bottom{
+  background-color: $wt;
+  .header__container_bottom{
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+}
+
+.nav__header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  .nav__item{
+    text-decoration: none;
+    color: #222222;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin-right: 33px;
+  }
+  .nav__basket {
+    text-decoration: none;
+    color: #222222;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+    text-transform: uppercase;
+    position: relative;
+    .nav__span{
+      position: absolute;
+      bottom: 13px;
+      left: 18px;
+    }
+
+  }
+
+  .nav__reservation{
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+    text-transform: uppercase;
+    background-color: $ct;
+    text-decoration: none;
+    padding: 9px 18px 9px 18px;
+    border-radius: 0 6px 0 6px;
+
+  }
+}

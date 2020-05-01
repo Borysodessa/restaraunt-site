@@ -1,0 +1,38 @@
+.main{
+  position: absolute;
+  .sub {
+    position: relative;
+  }
+}
+*, ::after, ::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+ max-width: 1180px;
+  margin: 0 auto;
+}
+$ct: #ff3a2d;
+$bk:#1f1a18;
+$wt:#ffffff;
+
+@import "header.scss";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

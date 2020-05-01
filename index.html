@@ -6,14 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>restoraunt site</title>
     <!--font-family: 'Poppins', sans-serif;-->
-  <link rel="stylesheet" href="styles.css"><link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css"><link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <!--font-family: 'Source Sans Pro', sans-serif;-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap" rel="stylesheet">
   <!-- Normalize css-->
   <link rel="stylesheet" href="styles/normalize.css">
 
   <!-- Styles css-->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles/styles.css">
 
 </head>
 <body>
@@ -22,8 +22,8 @@
     <div class="page">
       <!--pageheaer wrapper-->
         <header class="header">
-        <!--page header?-->
-            <section class="header__section_top">
+        <!-- header-container-top?-->
+            <div class="header__container_top">
                    <!--transparent -->
                 <div class="container header__flex-container_top">
                     <!--logo-->
@@ -38,52 +38,62 @@
                             </a>
                         </p>
                     </div>
-                    <form class="header__search-form" action="#" method="post">
-                        <input class="header__search__input" type="search" placeholder=" Quick Search">
-                        <input class="header__search__button" type="input" value="b">
+                         <!--search-header form-->
+                    <form class="search-form header__form" action="#" method="post">
+                        <input class="header__form__input" type="search" placeholder=" Quick Search">
+                        <button class="header__form__button" type="submit" value="b">
+                            <img class="search-form__img" src="image/button.png" alt="bottom">
+                        </button>
                     </form>
-                    <input class="header__login-input" type="button" value="login">
-                    <a class="header__contact-dilivary_link" href="#">
+                        <!--login & ikon-->
+                    <a class="link__header link_login" href="#">
+                        <span class="link-login_span">
+                            <img src="image/login.png">
+                        </span>
+                        Login
+                    </a>
+                       <!--contact-delivary-link-->
+                    <a class="link__header link_contact-dlivary" href="#">
                         For Delivary : 687 457 6587-90
                     </a>
                 </div>
-            </section>
-            <section class="header__section_bottom">
+            </div>
+            <!---header-container-bottom-->
+            <div class="header__container_bottom">
                 <div class="container header__container_bottom">
-                    <nav class="header__nav">
-                        <a class="nav_item" href="#">
+                    <nav class="nav__header">
+                        <a class="nav__item" href="#">
                             Home
                         </a>
-                        <a class="nav_item" href="#">
+                        <a class="nav__item" href="#">
                             About
                         </a>
-                        <a class="nav_item" href="#">
+                        <a class="nav__item" href="#">
                             Page
                         </a>
-                        <a class="nav_item" href="#">
-                            Menu
-                        </a>
-                        <a class="nav_item" href="#">
-                            Gallery
-                        </a>
-                        <a class="nav_item" href="#">
+                        <a class="nav__item" href="#">
                             Blog
                         </a>
-                        <a class="nav_item" href="#">
+                        <a class="nav__item" href="#">
                             Shops
                         </a>
-                        <a class="nav_item" href="#">
+                        <a class="nav__item" href="#">
                             Contact
                         </a>
-                        <a class="nav_item-basket" href="#">
-
+                        <a class="nav__item nav__basket" href="#">
+                            <img src="image/basket.png"  alt="basket">
+                            <span class="nav__span">
+                                <img src="image/basket2.png">
+                            </span>
                         </a>
-                        <a class="nav_item-reservation" href="#">
+                        <a class="nav__item  btn nav__reservation" href="#">
+
+
                             reservation
                         </a>
                     </nav>
                 </div>
-            </section>
+            </div>
         </header>
     </div>
 </body>
