@@ -19,50 +19,51 @@
 .header {
   background-color: #1f1a18;
 }
-.header .header__container_top {
+.header .container_header-top {
   width: 100%;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  background-color: #1f1a18;
 }
-.header .header__container_bottom {
+.header .container_header-bottom {
   background-color: #ffffff;
-  border: #959494 1px solid;
+  border-bottom: #bfbdbb 1px solid;
 }
 
-.header__flex-container_top {
+.wrapper_header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
-.header__flex-container_top .logo-container__header {
+.wrapper_header-top .container__img_logo-top {
   margin-bottom: -65px;
 }
 
-.header__slogan-text {
+.wrap-slogan__text {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 15px;
   color: #ffffff;
 }
-.header__slogan-text .slogan-text__link {
-  color: #ff3a2d;
+.wrap-slogan__text .link {
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
 }
-.header__slogan-text .slogan-text__link:hover {
+.wrap-slogan__text .wrap-slogan__link {
+  color: #ff3a2d;
+}
+.wrap-slogan__text .wrap-slogan__link:hover {
   color: #c63c33;
 }
-.header__slogan-text .slogan-text__link:active {
+.wrap-slogan__text .wrap-slogan__link:active {
   color: #793935;
 }
 
-.header__form {
-  height: 28px;
-  box-sizing: border-box;
-  vertical-align: center;
-}
-
-.header__form__input {
+.search-form__input {
   width: 200px;
   height: 28px;
   background-color: #bfbdbb;
@@ -73,7 +74,7 @@
   border: none;
 }
 
-.header__form__button {
+.search-form__button {
   width: 20px;
   height: 20px;
   position: relative;
@@ -96,49 +97,36 @@
   border: #bfbdbb 1px solid;
 }
 
-.link__header {
+.link-login {
   background: #1f1a18;
   color: #ffffff;
-  border: none;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 15px;
   text-decoration: none;
   position: relative;
 }
-.link__header:hover {
+.link-login:hover {
   color: #e6e2e1;
-  text-decoration: underline;
 }
-.link__header:active {
+.link-login:active {
   color: #848383;
 }
-.link__header .link-login_span {
+.link-login .link-login__span {
   margin-right: 13px;
 }
 
-.header__contact-delivary_link {
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 15px;
-  color: #ffffff;
+.contact-delivary {
   text-decoration: none;
+  color: #ffffff;
 }
-.header__contact-delivary_link:hover {
+.contact-delivary:hover {
   color: #e6e2e1;
 }
-.header__contact-delivary_link:active {
+.contact-delivary:active {
   color: #848383;
 }
 
-.header__section_bottom {
-  background-color: #ffffff;
-}
-.header__section_bottom .header__container_bottom {
-  padding-top: 14px;
-  padding-bottom: 14px;
+.wrapper__header-bottom {
+  padding-top: 17px;
+  padding-bottom: 17px;
 }
 
 .nav__header {
@@ -157,13 +145,6 @@
   margin-right: 33px;
 }
 .nav__header .nav__basket {
-  text-decoration: none;
-  color: #222222;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 15px;
-  text-transform: uppercase;
   position: relative;
 }
 .nav__header .nav__basket .nav__span {
@@ -171,16 +152,12 @@
   bottom: 13px;
   left: 18px;
 }
-.nav__header .nav__reservation {
+.nav__header .nav__button_red-theme {
   color: #ffffff;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 15px;
-  text-transform: uppercase;
   background-color: #ff3a2d;
-  text-decoration: none;
   padding: 9px 18px 9px 18px;
+}
+.nav__header .nav__button {
   border-radius: 0 6px 0 6px;
 }
 
