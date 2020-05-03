@@ -14,7 +14,6 @@ $wt:#ffffff;
 
 .container_header-bottom{
   background-color: $wt;
-
 }
 
 .wrapper_header-top{
@@ -56,6 +55,7 @@ $wt:#ffffff;
 .wrap-slogan__link:hover{
   color: #c63c33;
 }
+
 .wrap-slogan__link:active{
   color: #793935;
 }
@@ -104,14 +104,8 @@ $wt:#ffffff;
   position: relative;
 }
 
-.link-login:hover,
-.contact-delivary:hover{
+.link:hover{
     color: #858483;
-
-}
-
-.link-login:active{
-    color: #848383;
 }
 
 .link-login__span{
@@ -152,11 +146,6 @@ $wt:#ffffff;
   margin-right: 33px;
 }
 
-.nav__item:hover{
-  text-decoration: underline;
-  color: #e6e2e1
-}
-
 .nav__basket {
   position: relative;
 }
@@ -170,11 +159,10 @@ $wt:#ffffff;
   left: 18px;
 }
 
-.nav__button_red-theme{
+.btn_red{
   color:$wt ;
   background-color: $ct;
-  padding: 9px 18px 9px 18px;
-  margin-right: 0;
+
 }
 
 .nav__button_red-theme:hover{
@@ -185,6 +173,8 @@ $wt:#ffffff;
 
 .nav__button{
   border-radius: 0 6px 0 6px;
+  padding: 9px 18px 9px 18px;
+  margin-right: 0;
 }
 
 
