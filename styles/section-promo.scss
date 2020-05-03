@@ -20,7 +20,6 @@ $wt:#ffffff;
   margin: 0 auto;
   text-align: center;
   padding-top: 215px;
-  padding-bottom: 170px;
 }
 
 .wrapper-promo__text-pre-title{
@@ -50,12 +49,13 @@ $wt:#ffffff;
   margin-bottom: 80px;
 }
 
-.wrapper-promo__wrapper-buttons{
+.wrapper-btn{
   width: 350px;
   margin: 0 auto;
+  padding-bottom: 170px;
 }
 
-.wrapper-promo__link{
+.wrapper-btn__link{
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -68,7 +68,7 @@ $wt:#ffffff;
   text-decoration: none;
 }
 
-.wrapper-promo__link_red{
+.wrapper-btn__link_red{
   margin-left: 45px;
   white-space: nowrap;
 }
