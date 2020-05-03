@@ -262,4 +262,120 @@
   align-items: flex-end;
 }
 
+.section-welcome {
+  background: #ffffff;
+  padding-top: 135px;
+}
+
+.wrap-welcome_flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.wrap-welcome {
+  padding-top: 18px;
+}
+
+.head {
+  font-family: "Lobster Two", cursive;
+  font-weight: 700;
+}
+
+.wrap-welcome__head {
+  line-height: 38px;
+  color: #ff3a2d;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.wrap-welcome__span {
+  color: #222222;
+  font-size: 28px;
+  white-space: nowrap;
+}
+
+.wrap-head {
+  width: 192px;
+  margin-bottom: 40px;
+}
+
+.wrap-welcome__container {
+  max-width: 650px;
+}
+
+.text {
+  color: #808080;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.wrap-welcome__text_top {
+  margin-bottom: 40px;
+}
+
+.wrap-welcome__text_bottom {
+  margin-bottom: 40px;
+}
+
+.wrap-welcome__container_signature {
+  width: 196px;
+}
+
+.wrap-welcome__text_signature {
+  color: #1c1c1c;
+  font-family: "Sacramento", cursive;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.wrap-welcome__span_signature {
+  font-size: 16px;
+}
+
+.wrap-booking {
+  padding-left: auto;
+}
+
+.form-booking {
+  width: 370px;
+  background: #ff3a2d;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  padding-top: 65px;
+}
+
+.form-booking__head {
+  color: #ffffff;
+  font-family: "Lobster Two", cursive;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 40px;
+}
+
+.forms {
+  color: #808080;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15px;
+  width: 100%;
+  height: 38px;
+  margin-bottom: 20px;
+}
+
+.form-booking_submit {
+  color: #ffffff;
+  background: #34c0e7;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  margin-bottom: 75px;
+}
+
 /*# sourceMappingURL=styles.css.map */
