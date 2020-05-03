@@ -20,6 +20,76 @@ $wt:#ffffff;
 
 @import "header.scss";
 
+.page{
+  background-image: url("../image/background_section1.png");
+  background-size: cover;
+  background-color: #bfbdbb;
+}
+
+.wrapper-promo{
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 215px;
+  padding-bottom: 235px;
+}
+
+.wrapper-promo__text-pre-title{
+  color: #00c5d2;
+  font-family: 'Sacramento', cursive;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 39px;
+}
+
+.wrapper-promo__head{
+  color:$wt;
+  font-family: 'Lobster Two', cursive;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 34px;
+}
+
+.wrapper-promo__text{
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 80px;
+}
+
+.wrapper-promo__wrapper-buttons{
+  width: 350px;
+  margin: 0 auto;
+}
+
+.wrapper-promo__link{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: $wt;
+  padding: 20px 35px 20px 35px;
+  border: $ct 2px solid;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.wrapper-promo__link_red{
+  background: $ct;
+  margin-left: 45px;
+  white-space: nowrap;
+}
+
+
+
+
+
+
 
 
 

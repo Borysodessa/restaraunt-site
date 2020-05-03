@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="styles/styles.css"><link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <!--font-family: 'Source Sans Pro', sans-serif;-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap" rel="stylesheet">
+    <!--font-family: 'Sacramento', cursive;-->
+    <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+      <!--font-family: 'Lobster Two', cursive;-->
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two&display=swap" rel="stylesheet">
   <!-- Normalize css-->
   <link rel="stylesheet" href="styles/normalize.css">
 
@@ -23,14 +27,13 @@
       <!--pageheaer wrapper-->
         <header class="header">
         <!-- header-container-top?-->
-            <div class="container_header-top container">
+            <div class="container_header-top ">
                    <!--transparent -->
-                <div class="wrapper_header-top">
+                <div class="wrapper_header-top container">
                     <!--logo-->
-                    <div class="wrap_logo-top">
-                        <!--??-->
-                        <img class="header__img container__img_logo-top" src="image/logo.png" alt="logo">
-                    </div>
+                    <a class="link-logo" href="#">
+                        <img class="link-logo__img" src="image/logo.png" alt="logo">
+                    </a>
                     <div class="wrap-slogan"><!--блок-->
                         <p class="wrap-slogan__text"> <!--элемент-->
                             Wellcome To
@@ -62,7 +65,7 @@
             <!---header-container-bottom-->
             <div class="container_header-bottom">
                 <div class="container wrapper__header-bottom">
-                    <nav class="nav__header">
+                    <nav class="nav">
                         <a class="nav__item " href="#">
                             Home
                         </a>
@@ -94,6 +97,35 @@
                 </div>
             </div>
         </header>
+<!-- если оборачиваю в <main> перестают работать маргин авто что такоеверхние 5 строчек в stiles.scss?-->
+            <section class="section-promo">
+                <div class="container">
+                    <div class="wrapper-promo">
+                        <p class="wrapper-promo__text-pre-title">
+                            RestaurantBD is the name of pure food
+                        </p>
+                        <h2 class="wrapper-promo__head">
+                            We Provide 100% Pure & Healthy Food
+                        </h2>
+                        <p class="wrapper-promo__text">
+                            when an unknown printer took a galley of type and scrambled it
+                            to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting,
+                            remaining essentially unchanged. It was popularised in the
+                            1960s.
+                        </p>
+                        <div class="wrapper-promo__wrapper-buttons">
+                            <a class="wrapper-promo__link" href="#">
+                                About us
+                            </a>
+                            <a class="wrapper-promo__link wrapper-promo__link_red" href="#">
+                                See Menu
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
     </div>
 </body>
 </html>
