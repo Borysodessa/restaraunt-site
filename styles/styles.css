@@ -263,8 +263,11 @@
 }
 
 .section-welcome {
-  background: #ffffff;
+  background-color: #ffffff;
   padding-top: 135px;
+  background-image: url("../image/fon-leaves.png");
+  background-repeat: no-repeat;
+  background-position: 1000px 400px;
 }
 
 .wrap-welcome_flex {

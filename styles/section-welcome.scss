@@ -1,7 +1,14 @@
+$ct: #ff3a2d;
+$bk:#1f1a18;
+$wt:#ffffff;
+
 
 .section-welcome{
-  background: $wt;
+  background-color: $wt;
   padding-top: 135px;
+  background-image: url("../image/fon-leaves.png");
+  background-repeat: no-repeat;
+  background-position: 1000px 400px;
 }
 
 .wrap-welcome_flex {
