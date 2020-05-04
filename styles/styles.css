@@ -16,6 +16,14 @@
   margin: 0 auto;
 }
 
+.page {
+  background-image: url("../image/background_section1.png");
+  background-size: auto;
+  background-color: #ffffff;
+  background-position: -250px 0;
+  background-repeat: no-repeat;
+}
+
 .header {
   background-color: #1f1a18;
 }
@@ -189,13 +197,6 @@
   padding-bottom: 40px;
 }
 
-.page {
-  background-image: url("../image/background_section1.png");
-  background-size: cover;
-  background-color: #bfbdbb;
-  background-position: -250px 0;
-}
-
 .wrapper-promo {
   max-width: 800px;
   margin: 0 auto;
@@ -267,7 +268,8 @@
   padding-top: 135px;
   background-image: url("../image/fon-leaves.png");
   background-repeat: no-repeat;
-  background-position: 1000px 400px;
+  background-position: 1000px 500px;
+  padding-bottom: 140px;
 }
 
 .wrap-welcome_flex {
@@ -379,6 +381,52 @@
   font-weight: 400;
   border: none;
   margin-bottom: 75px;
+}
+
+.features-section {
+  padding-top: 45px;
+}
+
+.features__head__wrap {
+  width: 287px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.features__pre-head {
+  color: #ff3a2d;
+  font-family: "Sacramento", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 54px;
+}
+
+.features__head {
+  font-family: "Lobster Two", cursive;
+  font-weight: 400;
+  color: #222222;
+  font-size: 36px;
+  margin-bottom: 11px;
+}
+
+.features__slider__wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+
+.figure {
+  margin-right: 30px;
+}
+
+.figcaption {
+  font-family: "Lobster Two", cursive;
+  text-align: center;
+}
+
+.discount-span {
+  font-size: 16px;
+  text-decoration: line-through;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -2,6 +2,13 @@ $ct: #ff3a2d;
 $bk:#1f1a18;
 $wt:#ffffff;
 
+.page{
+  background-image: url("../image/background_section1.png");
+  background-size: auto;
+  background-color: $wt;
+  background-position: -250px 0;
+  background-repeat: no-repeat;
+}
 
 
 .header{
