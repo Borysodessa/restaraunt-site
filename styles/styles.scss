@@ -13,8 +13,13 @@
 .container{
  max-width: 1180px;
   margin: 0 auto;
-}
+  padding-left: 15px;
+  padding-right: 15px;
 
+}
+$ct: #ff3a2d;
+$bk:#1f1a18;
+$wt:#ffffff;
 
 @import "header.scss";
 @import "section-promo.scss";

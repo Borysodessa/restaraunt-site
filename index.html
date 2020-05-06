@@ -44,10 +44,10 @@
                     </div>
                          <!--search-header form-->
                     <form class="search-form " action="#" method="post">
-                        <input class="search-form__input" type="search" placeholder=" Quick Search">
-                        <button class="search-form__button" type="submit" value="b">
+                        <input class="search-form__input" type="search" id="Quick Search" placeholder=" Quick Search">
+                        <label for="Quick Search">
                             <img class="search-form__img" src="image/button.png" alt="bottom">
-                        </button>
+                        </label>
                     </form>
                         <!--login & ikon-->
                     <a class="link link-login" href="#">
@@ -117,10 +117,10 @@
                     </div>
                        <!--две кнопки один или два блока-->
                     <div class="wrapper-btn">
-                        <a class="wrapper-btn__link link" href="#">
+                        <a class="wrapper-btn__link link wrapper-btn__link_left" href="#">
                             About us
                         </a>
-                        <a class="wrapper-btn__link link btn_red wrapper-btn__link_red" href="#">
+                        <a class="wrapper-btn__link link btn_red wrapper-btn__link_right" href="#">
                             See Menu
                         </a>
                     </div>
@@ -213,85 +213,157 @@
                     </div>
                     <!--можно делать два figcaption в одном фигуре-->
                     <!--как отцентровать слайдер - сьезжает в право-->
+                    <img class="features__img_arrowleft img-arrow" src="image/strelkalev.png" alt="arrow">
                     <div class="features__slider__wrap">
-                        <img class="features__img_arrowleft img-arrow" src="image/strelkalev.png" alt="arrow">
-                        <figure class="features__figure_1 figure">
-                            <img class="features__img-1" src="image/slider1.png" alt="slide1">
+                        <div>
+                        <figure class="features__figure figure">
+                            <img class="features__img" src="image/slider1.png" alt="slide1">
                             <figcaption class="figcaption features__figcaption ">
                                 Smokehouse Combo
                             </figcaption>
                             <figcaption class="figcaption features__figcaption">
                                 8.50$
-                                <span class="feature__span_discount1 discount-span">
+                                <span class="feature__span_discount discount-span">
                                     10.60$
                                 </span>
                             </figcaption>
                         </figure>
-                        <figure class="features__figure_2 figure">
-                            <img class="features__img2" src="image/slider2.png" alt="slide2">
+                       </div>
+                        <div>
+                        <figure class="features__figure figure">
+                            <img class="features__img" src="image/slider2.png" alt="slide2">
                             <figcaption class="figcaption features__figcaption">
                                 Chicken Burger
                             </figcaption>
                             <figcaption class="figcaption features__figcaption">
                                 6.50$
-                                <span class="feature__span_discount2 discount-span">
+                                <span class="feature__span_discount discount-span">
                                     8.60$
                                 </span>
                             </figcaption>
                         </figure>
-                        <figure class="features__figure_3 figure">
-                            <img class="features__img3" src="image/slider3.png" alt="slide3">
+                        </div>
+                        <div>
+                        <figure class="features__figure figure">
+                            <img class="features__img" src="image/slider3.png" alt="slide3">
                             <figcaption class="figcaption features__figcaption">
                                 Ribs & Stickes
                             </figcaption>
                             <figcaption class="figcaption features__figcaption">
                                 11.80$
-                                <span class="feature__span_discount3 discount-span">
+                                <span class="feature__span_discount discount-span">
                                     15.60$
                                 </span>
                             </figcaption>
                         </figure>
-                        <figure class="features__figure_4 figure">
-                            <img class="features__img4" src="image/slider4.png" alt="slide4">
+                        </div>
+                        <div>
+                        <figure class="features__figure figure">
+                            <img class="features__img" src="image/slider4.png" alt="slide4">
                             <figcaption class="figcaption features__figcaption">
                                 Chicken Crisper
                             </figcaption>
                             <figcaption class="figcaption features__figcaption">
                                 9.50$
-                                <span class="feature__span_discount4  discount-span">
+                                <span class="feature__span_discount  discount-span">
                                     11.80$
                                 </span>
                             </figcaption>
                         </figure>
-                        <figure class="features__figure_5 figure">
-                            <img class="features__img5" src="image/slider5.png" alt="slide5">
+                        </div>
+                        <div>
+                        <figure class="features__figure_ figure">
+                            <img class="features__img" src="image/slider5.png" alt="slide5">
                             <figcaption class="figcaption features__figcaption">
                                Chicken Sandwich
                             </figcaption>
                             <figcaption class="figcaption features__figcaption">
                                 12.50$
-                                <span class="feature__span_discount5  discount-span">
+                                <span class="feature__span_discount  discount-span">
                                     18.60$
                                 </span>
                             </figcaption>
                         </figure>
-                        <figure class="features__figure_6 figure">
-                            <img class="features__img6" src="image/slider6.png" alt="slide6">
+                        </div>
+                        <div>
+                        <figure class="features__figure figure">
+                            <img class="features__img" src="image/slider6.png" alt="slide6">
                             <figcaption class="figcaption features__figcaption">
                                 Party Platter
                             </figcaption>
                             <figcaption class="figcaption features__figcaption">
                                 21.50$
-                                <span class="feature__span_discount6  discount-span">
+                                <span class="feature__span_discount  discount-span">
                                     28.60$
                                 </span>
                             </figcaption>
                         </figure>
-                        <img class="features__img_arrowright img-arrow" src="image/strelkaprav.png" alt="arrow">
+                        </div>
                     </div>
+                </div>
+                <img class="features__img_arrowright img-arrow" src="image/strelkaprav.png" alt="arrow">
+            </section>
+        <section class="section-aboutus">
+            <div class="container">
+                <div class="aboutus">
+                        <div class="aboutus__head__wrap">
+                            <p class="aboutus__pre-head">
+                                We Provide Best Services
+                                <span class="aboutus__span">
+                                    About Us
+                                </span>
+                            </p>
+                        </div>
+                        <img class="aboutus__img-ikon" src="image/ikon2.svg" alt="ikon2">
+                        <p class="aboutus__text">
+                            Injected humour, or randomised
+                            words which don't look evethe Internet tend to
+                            repeat predefined chunks as necessary, making
+                            this the first n slightly believable. If Lorem
+                            Ipsum, you need to be sure there isn't on the
+                            Internet tend to repeat predefined chunks as
+                            you are going to use a passage of Lorem Ipsum
+                            you need to be sure there isn't on the Internet
+                            tend to repeat predefined chunks as necessary,
+                            making this the first true generator on the
+                            Internet tend to repeat predefined chunks as
+                            you
+                        </p>
+                    </div>
+                        <ol class="list-services">
+                            <li class="list-services__item">
+                                Our Restaurant provide best service ever
+                                to our customer                
+                            </li>
+                            <li class="list-services__item">
+                                 We have best Restaurant food menu alltime.                
+                                <span class="list-services__span">
+                                    Injected humour, or randomised words
+                                    which don't look evethe Internet tend
+                                    to repeat predefined chunks as necessary,
+                                    making this the first n slightly
+                                    believable. If Lorem Ipsum, you need
+                                    to be sure there isn't on the Internet
+                                    tend to repeat tend to repeat predefined
+                                    chunks as you.
+                                </span>
+                            </li>
+                            <li class="list-services__item">
+                                 Our Restaurant provide Home Delivary
+                                service to our customer.                
+                            </li>
+                            <li class="list-services__item">
+                                4. Restaurant Located nearby your destination.                
+                            </li>
+                        </ol>
+                    <img class="aboutus__img" src="image/pic1.jpg" alt="">
+
                 </div>
             </section>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
 

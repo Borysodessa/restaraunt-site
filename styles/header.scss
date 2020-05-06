@@ -75,13 +75,8 @@ $wt:#ffffff;
   color: #848383;
   border-radius: 6px 0 0 6px;
   margin-top: 0;
-  padding: 0;
+  padding: 10px;
   border: none;
-}
-
-.search-form__button{
-  width: 20px;
-  height: 20px;
   position: relative;
 }
 
@@ -91,9 +86,8 @@ $wt:#ffffff;
   border-radius: 0 6px 6px 0;
   border: none;
   cursor: pointer;
-  position: absolute; //?????? выскакивает из строки если нет позитион абсолуте
-  top: -3px;
-  left: -6px;
+  display: inline-block;
+  position: absolute;
 }
 
 .search-form__img:hover{

@@ -40,7 +40,7 @@ $wt:#ffffff;
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
-  margin-bottom: 80px;
+  margin-bottom: 63px;
 }
 
 .wrapper-btn{
@@ -60,11 +60,21 @@ $wt:#ffffff;
   border: $ct 2px solid;
   border-radius: 6px;
   text-decoration: none;
+  display: inline-block;
 }
 
-.wrapper-btn__link_red{
+.wrapper-btn__link_left:hover{
+  background-color: rgba(255, 255, 255, 0.1);
+  border: #bf1d12 2px solid;
+}
+
+.wrapper-btn__link_right{
   margin-left: 45px;
   white-space: nowrap;
+}
+
+.wrapper-btn__link_right:hover{
+  background-color: #bf1d12;
 }
 
 .wrap-slider{
