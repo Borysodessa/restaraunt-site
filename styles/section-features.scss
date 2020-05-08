@@ -2,6 +2,10 @@ $ct: #ff3a2d;
 $bk:#1f1a18;
 $wt:#ffffff;
 
+.container-features{
+  margin: 0 auto;
+  max-width: 1170px;
+}
 
 .features-section{
   padding-top: 45px;
@@ -29,41 +33,69 @@ $wt:#ffffff;
   margin-bottom: 11px;
 }
 
-.features__slider__wrap{   //фотки уходят вправо ?
-
-  justify-content: space-between;
-  padding-top: 70px;
-
-  align-items: center;
+.feature__img_ikon{
+  margin-bottom: 70px;
 }
 
-.figure{
-  margin-right: 30px;
+
+.slick-track{
+  display: flex;
+  margin: 0 auto;
+}
+
+.slick-list{
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.features__slider__wrap{
+  position: relative;
+  padding: 0 25px;
+
+}
+
+.features__slider__wrap .slick-arrow{
+  position: absolute;
+  top: 35%;
+  z-index: 10;
+  font-size: 0;
+}
+
+.features__slider__wrap .slick-arrow.slick-prev{
+  left: 5px;
+  background-image: url("../image/strelkalev.png");
+}
+
+.features__slider__wrap .slick-arrow.slick-next{
+  right: 15px;
+  background-image: url("../image/strelkaprav.png");
+}
+
+.features__slider__wrap .slick-arrow.slick-prev,
+.features__slider__wrap .slick-arrow.slick-next{
+  width: 28px;
+  height: 28px;
+  background-color: #0cf1ee;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  padding: 20px;
+  background-position: 10px 8px;
+  border: none;
 }
 
 .figcaption{
   font-family: 'Lobster Two', cursive;
   text-align: center;
+  font-size: 24px;
 }
 
-.discount-span{
+.feature__span_discount{
   font-size: 16px;
   text-decoration: line-through;
 }
 
-.features__figure_6{
-  margin-right: 0;
-  position: relative;
-}
 
-.features__img_arrowleft{
-  margin-right: -30px;
-  z-index:2
-}
 
-.features__img_arrowright{
-  margin-left: -30px;
-  z-index:2;
-}
+
 
 
