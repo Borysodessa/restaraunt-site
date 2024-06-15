@@ -11,7 +11,7 @@
 }
 
 .container{
- max-width: 1180px;
+  max-width: 1180px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -33,6 +33,7 @@ $wt:#ffffff;
 .section-aboutus{
   padding-top: 260px;
 }
+
 .aboutus__pre-head{
   color: #ff3a2d;
   font-family: 'Sacramento', cursive;
@@ -76,13 +77,12 @@ $wt:#ffffff;
   line-height: 28px;
 }
 
-.wrap-text_aboutus{
-
-
+.list-services{
+  margin-bottom: 10px
 }
 
 .aboutus__img{
   display: inline;
-
 }
+
 
